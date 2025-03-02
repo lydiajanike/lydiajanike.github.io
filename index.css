@@ -1,0 +1,75 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  color: seagreen;
+}
+
+header {
+  background-image: url('zoom background.jpg');
+  background-size: cover;
+  display: fixed;
+  height: 400px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+header li {
+  display: inline;
+  padding: 20 px;
+}
+
+body{
+background-color: rgba(129, 194, 127, 0.386);
+}
+
+#nav-list li {
+  font-size: 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+p, 
+li {
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 70%;
+}
+
+#steps-list {
+  background-color: lightseagreen;
+  width: 45%;
+}
+
+#steps-list li {
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+#steps-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: white; /* Adjust the color as needed */
+}
+
+footer {
+  background-color: seagreen;
+  color: white;
+  padding: 10px;
+}
