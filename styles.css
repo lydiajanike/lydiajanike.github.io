@@ -171,6 +171,13 @@ p {
     margin: 0;
   }
 
+  @media only screen and (max-width: 768px) {
+    #contact {
+      grid-template-columns: 1fr; /* Stack columns on smaller screens */
+      gap: 2rem; /* Add gap between items */
+    }
+  }
+
   #contact .column ul li {
     font-size: 1.5rem; /* Adjust the font size if needed */
   }
