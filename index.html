@@ -1,39 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello World</title>
-        <link rel="stylesheet" href="index.css" type="text/css">
-    </head>
-    <body>
-       <header>
-        <ul id="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li>About</li>
-            <li>More</li>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favico.ico.jpg" type="image/jpg">
+    <title>Lydia Janike Art</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-text-container">
+        <h1 class="header-text">Lydia Janike Art</h1>
+        <h2 class="header-text">Creativity in full bloom</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h3>About Me</h3>
+        <p>Welcome to my art portfolio! I am a passionate artist who loves to create and share my work with the world. My art is inspired by nature, emotions, and the beauty of everyday life.</p>
+      </section>
 
-       </header>
-       
-        <h1>Hello World</h1>
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <div class="portfolio-grid">
+          <img src="Colourful flowersss.jpg" alt="Art 1"></div>
+          <img src="Dance.jpg" alt="Art 2"></div>
+          <img src="Field at sunset.jpg" alt="Art 3"></div>
+          <img src="Freckles in the sun.jpg" alt="Art 4"></div>
+          <img src="Cone Flowers.jpg" alt="Art 5"></div>
+          <img src="Lion 2.jpeg" alt="Art 6"></div>
+          <img src="Little white flowers.jpg" alt="Art 7"></div>
+          <img src="Snow fall.jpg" alt="Art 8"></div>
+          <img src="Throwing leaves.jpg" alt="Art 9"></div>
+          <img src="Bike in a field.jpg" alt="Art 10"></div>
+        </div>
+      </section>
 
-        <p> How are we doing? <br>
-        Any progress yet?</p>
-
-        <img src="Heather-Jarrell.jpg" alt="doggo"></img>
-
-        <p> Let's see how this works.
-            <ul id="steps-list">
-                <li> First we set up the code.</li>
-                <li> Then we run the code.</li>
-                <li> Perhaps we fix the code. </li>
-                <li> Finally, we run it again. </li>
-                <li> And enjoy our work. </li>
-            </ul>
-        </p>
-        <footer>
-            <p>Created by Lydia Janike</p>
-        </footer>
-    </body>
+      <section id="contact">
+        <div class="column"></div>
+        <div class="column">
+        <h3>Contact Me</h3>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+        </div>
+        <div class="column">
+          <h3>Follow Me</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/lydiajanike_art/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.etsy.com/shop/lydiajanikeart" target="_blank">Etsy</a></li>
+            <li><a href="https://nl.pinterest.com/lvandijk0991/_profile/" target="_blank">Pinterest</a></li>
+          </ul>
+        </div>
+        <div class="column"></div>
+      </section>
+  </body>
+  <footer>
+    <p>&copy; 2025 Lydia Janike. All rights reserved.</p>
 </html>

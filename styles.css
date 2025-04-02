@@ -1,0 +1,196 @@
+/* Fonts */
+
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.onest-uniquifier {
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* Html */
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    background-color: #F2D9BB;
+  }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%
+}
+
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Libre-Baskerville", serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: "Libre-Baskerville", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+p {
+  font-family: onest;
+}
+  /* header */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(Golden\ Hour\ Joy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header-text-container {
+    color: #F2D9BB;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 2rem 2rem;
+    text-shadow: 2px 2px 2px #592A0E;
+  }
+
+  header h1 {
+    margin-bottom: 0;
+  }
+
+  header h2 {
+    margin-top: 0;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    width: 100%;
+    background-color: rgba(166, 82, 8, 0.6);
+    border-radius: 10px;
+  }
+
+  nav ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    color:#F2D9BB; 
+    justify-content: space-between;
+  }
+
+  nav ul li a {
+    text-decoration: underline;
+    color: #F2D9BB;
+    padding: 2rem;
+  }
+
+  /*About Section*/
+
+  #about {
+    color: #592A0E;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #about p {
+    width: 80%;
+  }
+
+
+  /*Portfolio Section*/
+  #portfolio {
+    background-color: #F29E38;
+    display: flex; /* Enable flexbox */
+    flex-wrap: wrap; /* Allow images to wrap to the next line if needed */
+    justify-content: center; /* Center the images within the container */
+    padding: 2rem;
+    gap: 1rem; /* Add spacing between the images */
+  }
+
+  #portfolio h3 {
+    width: 100%; /* Ensure the heading spans the full width of the container */
+    text-align: center; /* Center-align the text */
+    font-size: 2rem; /* Adjust the font size */
+    margin-bottom: 1rem; /* Add spacing between the heading and the images */
+    color: #592A0E; /* Set a color for the heading */
+  }
+  
+  
+  #portfolio img {
+    width: 200px; /* Set a fixed width for the images */
+    height: auto; /* Maintain the original aspect ratio */
+    margin: 0.5rem; /* Add spacing around the images */
+    object-fit: cover; /* Ensure the image fills its container without distortion */
+  }
+
+  /*Contact Section*/
+  #contact {
+    background-color: #F2D9BB;
+    padding: 1rem;
+    color: #592A0E;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Two equal columns */
+    justify-items: center; /* Center items horizontally */
+    margin: 0;
+  }
+
+  #contact .column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contact .column ul li {
+    font-size: 1.5rem; /* Adjust the font size if needed */
+  }
+
+  #contact .column ul li a {
+    color: #592A0E; /* Set the desired color for the links */
+    font-size: 1.2rem; /* Adjust the font size if needed */
+  }
+  
+  #contact .column ul li a:hover {
+    color: #BFA78A; /* Optional: Change color on hover */
+  }
+
+  /* Footer */
+  footer {
+    background-color: #BFA78A;
+    color: #592A0E;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
